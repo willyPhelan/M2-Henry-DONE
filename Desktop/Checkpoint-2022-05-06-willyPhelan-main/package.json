@@ -1,0 +1,43 @@
+{
+  "name": "checkpointm1",
+  "version": "1.0.0",
+  "description": "Henry - Checkpoint M1",
+  "main": "checkpoint.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --verbose --detectOpenHandles",
+    "test:1": "jest --verbose --detectOpenHandles 01.test.js",
+    "test:2": "jest --verbose --detectOpenHandles 02.test.js",
+    "test:3": "jest --verbose --detectOpenHandles 03.test.js",
+    "test:4": "jest --verbose --detectOpenHandles 04.test.js",
+    "test:5": "jest --verbose --detectOpenHandles 05.test.js",
+    "test:6": "jest --verbose --detectOpenHandles 06.test.js",
+    "test:7": "jest --verbose --detectOpenHandles 07.test.js",
+    "test:8": "jest --verbose --detectOpenHandles 08.test.js",
+    "test:9": "jest --verbose --detectOpenHandles 09.test.js",
+    "test:10": "jest --verbose --detectOpenHandles 10.test.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "jest": "^27.0.4"
+  },
+  "author": "",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.10.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@jest/test-result": "^27.0.2",
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "chalk": "^4.1.1",
+    "jest-util": "^27.0.2"
+  },
+  "jest": {
+    "verbose": true,
+    "detectOpenHandles": true
+  }
+}
