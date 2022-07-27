@@ -1,0 +1,13 @@
+// Mixins acá
+.mybtnn (@colorfondo, @font-color) { 
+    background-color: @colorfondo ;
+    color: @font-color ;
+    display: inline-block ; 
+    padding: 10px ; 
+    border-radius: 4px ;
+
+    &:hover {
+        background-color: @font-color ;
+        color: @colorfondo ; 
+    }
+}
